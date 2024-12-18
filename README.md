@@ -35,7 +35,7 @@ It serves as a benchmark problem for testing and developing optimization algorit
 
 ---
 
-##Project Structure
+## Project Structure
 
 The project has the following folder structure:
 
@@ -73,7 +73,7 @@ NIC_CA2_group_project-main/
 
 ### Parameter Configuration
 
-####1. To configure the parameters for the project, update the file located at `resources/param_properties`. Below is a list of the key parameters and their descriptions:
+#### 1. To configure the parameters for the project, update the file located at `resources/param_properties`. Below is a list of the key parameters and their descriptions:
 
 | **Parameter**         | **Type**    | **Description**                                                         |
 |------------------------|------------|-------------------------------------------------------------------------|
@@ -85,13 +85,13 @@ NIC_CA2_group_project-main/
 | `fill_rate_ksp`        | `float`    | Knapsack fill rate as a percentage.                                     |
 | `dataset_idx`          | `int`      | Index of the dataset to load (`0–8`).                                   |
 
-####2. Run the Solver:
+#### 2. Run the Solver:
 Execute the solver.py file in the src folder:
 ```bash
 python src/solver.py
 ```
 
-####3. Output:
+#### 3. Output:
 The program will:
 
 Optimize the TSP and KSP solutions.
