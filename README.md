@@ -38,8 +38,9 @@ It serves as a benchmark problem for testing and developing optimization algorit
 ## Project Structure
 
 The project has the following folder structure:
-
+```
 NIC_CA2_group_project-main/ │ ├── resources/ # Dataset files and configuration │ ├── a280-n279.txt # Dataset index 0 │ ├── a280-n1395.txt # Dataset index 1 │ ├── a280-n2790.txt # Dataset index 2 │ ├── fnl4461-n4460.txt # Dataset index 3 │ ├── fnl4461-n22300.txt # Dataset index 4 │ ├── fnl4461-n44600.txt # Dataset index 5 │ ├── pla33810-n33809.txt # Dataset index 6 │ ├── pla33810-n169045.txt # Dataset index 7 │ ├── pla33810-n338090.txt # Dataset index 8 │ └── param_properties # Parameter configuration file │ ├── src/ # Source code files │ ├── solver.py # Main program entry point │ ├── tsp_algo.py # TSP algorithms implementation │ ├── nsga_util.py # Utility for NSGA-based optimization │ ├── pack_util.py # Knapsack packing logic │ ├── plotter.py # Visualization of results │ ├── file_util.py # File I/O utilities │ ├── three_opt.py # 3-opt algorithm for TSP improvement │ ├── Route.py, Node.py, etc. # Supporting classes for route and graph │ ├── Dataset.py # Dataset management and parsing │ ├── path_util.py # Path management utilities │ └── Params.py # Reads and applies parameters │ └── README.md # Project documentation
+```
 
 ## How to Run the Project
 
