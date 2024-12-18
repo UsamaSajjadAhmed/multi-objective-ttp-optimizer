@@ -68,7 +68,6 @@ NIC_CA2_group_project-main/
 │
 └── README.md                      # Project documentation
 
-
 ## How to Run the Project
 
 ### Parameter Configuration
